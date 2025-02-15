@@ -1,6 +1,6 @@
 function popuGrowth() {
     let initialPopu = parseFloat(prompt('Input the Initial Population: '));
-    let growthRate = parseFloat(prompt('Enter a number between 1-100: ')/100);
+    let growthRate = parseFloat(prompt('Enter a number between 1-100(for enemy growth rate): ')/100);
     let t = parseFloat(prompt('Enter a number of an hour: '));
 
     let finalPopu = Math.round((initialPopu)*(Math.E**(growthRate*t)));
